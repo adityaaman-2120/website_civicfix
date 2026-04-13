@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/((?!sitemap|robots).*)", "destination": "/index.html" }
+  "redirects": [
+    { "source": "/about", "destination": "/about/about.html" },
+    { "source": "/blog", "destination": "/blog/blog.html" },
+    { "source": "/career", "destination": "/career/career.html" },
+    { "source": "/press", "destination": "/press/press.html" }
   ]
 }
